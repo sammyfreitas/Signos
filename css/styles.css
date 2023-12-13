@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower:wght@400;700&display=swap');
+
+
+/*https://fonts.google.com/ 
+Aladin
+Fontes serifadas	: Josefin Sans, Dosis 
+Fontes não serifadas: Roboto, Preahvihear, Mina, Rubik Bubbles
+Cursivas			: Caveat, Pacifico, Mynerve, Dancing Script, Borel
+Pixelada			: Silkscreen, Wallpoet
+*/
+
+body {
+    margin: 0;
+    font-family: 'Caveat';
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    color: #8B735B;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui o espaço entre as divs */
+    width: 100%;
+    margin-top: 10px;
+}
+
+a:visited {
+    color: #C4A487;
+}
+
+a:hover {
+    color: #8B735B;
+    text-decoration: none;
+}
+
+
+.social-icons {
+    border-radius: 15px;
+    background-color: rgba(254, 247, 231, 0.8);
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #8B735B;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+	align-items: center;
+}
+
+.input-container {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    opacity: 1.2;
+}
+
+.input-container input {
+    color: #8B735B;
+	border: none;
+	border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.input-container label {
+    color: #8B735B;
+}
+
+.input-container input#dataNascimento {
+    width: 180px;
+}
+
+.input-container button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8B735B;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #634b39;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-container {
+    opacity: 1.2;
+    background-color: rgba(254, 247, 231, 0.8);
+    padding: 20px;
+}
+
+.borda-fina {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.info-container {
+    opacity: 1.2;
+	font-family: Indie Flower;
+	font-size:medium;
+    background-color: rgba(254, 247, 231, 0.8);
+    padding: 10px;
+    margin-top: 2px;
+    text-align: center;
+    border-radius: 15px;
+	max-width: 600px;
+    display: none; /* Inicialmente invisível */
+}
+
+.info-container.ativo {
+    display: block; /* Torna visível quando ativo */
+}
+
+#imagemSigno {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.rodape-container {
+    margin-top: 80px;
+    text-align: center;
+	font-family: 'Pacifico';
+    font-size: medium;
+	color: #8B735B;
+    border-radius: 15px;
+    background-color: rgba(254, 247, 231, 0.8);
+    padding: 20px;
+}

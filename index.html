@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra seu Signo</title>
+    <!-- https://www.flaticon.com/free-icons/ -->
+	<link rel="icon" href="./imagens/star.png" type="image/x-icon">
+	<link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body style="background-image: url('https://www.eusemfronteiras.com.br/wp-content/uploads/2020/11/15286560_l-scaled-e1613062526533-810x474.jpg');">
+
+    <div class="outer-container">
+        <div class="social-icons">
+            <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://wa.me/5521975287327" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:tonysdefreitas@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+            <a href="https://github.com/sammyfreitas" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="form-container">
+            <div class="input-container">
+                <div class="borda-fina"></div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+
+                <div class="borda-fina"></div>
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento">
+
+                <button onclick="verificarSigno()">Verificar Signo</button>
+            </div>
+
+            <div class="info-container">
+                <hr><h3 id="nomePessoa"></h3>
+				<hr><p id="infoSigno"></p>
+				<hr><img id="imagemSigno" src="" alt="Imagem do Signo">
+                <p id="textoSigno"></p><hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape-container">
+        Desenvolvido por <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a>
+        no Curso de Programador Front-End no Senai Maracanã<br>Todos os direitos reservados - 2023
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
