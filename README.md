@@ -1,2 +1,4 @@
 # Signos
-Descubra seu signo
+Descubra seu signo e características
+
+Link: https://sammyfreitas.github.io/Signos/
